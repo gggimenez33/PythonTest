@@ -1,5 +1,4 @@
 import statistics
-
 import selenium
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -10,7 +9,6 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 from webdriver_manager.chrome import ChromeDriverManager
 import time
-import datetime
 import os
 import openpyxl
 import pathlib
@@ -23,7 +21,8 @@ class PythonTest:
         print(f'Starting Process...')
 
         # Driver Settings
-        self.driver = webdriver.Chrome(executable_path=r"C:\Users\Paixão\Downloads\chromedriver.exe")
+        self.userprofile = os.environ['USERPROFILE']
+        self.driver = webdriver.Chrome(executable_path=fr"{self.userprofile}\Downloads\chromedriver.exe")
         self.driver.maximize_window()
         url = r'https://twitter.com/explore'
         self.driver.get(url)
@@ -252,7 +251,11 @@ class PythonTest:
         self.sheet['P' + str(self.last_empty_row)].value = tweet_median_favorites
         self.sheet['Q' + str(self.last_empty_row)].value = tweet_median_retweets
         self.sheet['R' + str(self.last_empty_row)].value = tweet_median_replies
-        self.excel_file.save(f'{self.path}' + '/Twitter_Report.xlsx')
+        try:
+            self.excel_file.save(f'{self.path}' + '/Twitter_Report.xlsx')
+            print("Sucess to save excel file")
+        except Exception as e:
+            print("Something wrong to save excel file: ", e)
 
 
     def close_driver(self):
