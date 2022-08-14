@@ -1,0 +1,42 @@
+1) From a technical point of view, the main challenges for the implementation of platforms like Instagram, TikTok, and Youtube are related to user usability, coupled with the quality of navigation in the system.
+The big problems are in providing systems that are easy to use, fast in responding to user commands and, at the same time, robust to support the large amount of information that travels over this period of time.
+In addition, the system must have user-friendly features that make users want to stay on the platform, to consume the content that is being exposed there.
+
+2) Data mining is an analytical process where large amounts of data are explored with the goal of finding relevant patterns or systematic relationships between variables. Data mining tools analyze data for opportunities to be applied in business. 
+In other words, Data Mining represents the automatic discovery of patterns, prediction of results, creation of information, focusing on a large mass or sets of data.
+In this way, through the patterns that a Data Mining analysis can provide us, it's possible to choose better decision making about influencers, including to increase the revenues and ROI of the company or brand.
+
+3) Web scraping, also known as web data extraction, is the name given to the process of collecting structured data from the web in an automated manner. 
+Web scraping involves the extraction of relevant information from a given site for later analysis or use. This data will be used to improve decision making with a greater chance of success and accuracy, and faster data extraction.
+An example of web scanning application is the use of Selenium to simulate a user on the screen and extract data from certain websites. In other words, it's a tool used for automated testing, being able to simulate user input and site manipulation.
+
+4) HTTP is a protocol that allows you to retrieve resources, such as HTML documents. It's the basis of any data exchange on the Web. It's a document built from the different sub-documents, such as text, layout description, images, videos, scripts and so on.
+As such, HTTP is a client-server protocol, i.e. requests are sent by one entity, the user-agent. Most often, the user-agent is a web browser.
+The HTTP protocol defines a set of request methods responsible for indicating the action to be performed for a given resource, such as Get, Post and Put. 
+HTTP headers allow the client and server to pass additional information with the request or response. 
+An HTTP cookie is a small piece of data that a server sends to the user's browser. The browser can store this data and send it back on the next request to the same server. In other words, the HTTP cookie saves dynamic information for the HTTP protocol.
+
+5) A proxy server is a bridge between you and the rest of the Internet. When using the web browser, the user will be connected directly to the accessed website. 
+When using a proxy, the browser connects first and then forwards the user to the website traffic. 
+In this way, proxy servers are direct communication tools, so a proxy also receives the response from the website and sends it back to the user.
+
+6) Data science is the process of developing systems that gather and analyze divergent information to uncover solutions to various business challenges and solve real-world problems. 
+Machine learning is used in data science to help discover patterns and automate the process of data analysis. 
+Data science contributes to the growth of both AI and machine learning. 
+
+7) Feature engineering is the process of selecting, manipulating, and transforming raw data into data that can be used in supervised learning. 
+For machine learning to work properly, it is usually necessary to design and train the features. 
+In other words, Feature engineering is the act of converting raw observations into desired features using statistical or machine learning approaches.
+
+8) A data scientist cleans and analyzes data, providing metrics to solve business or enterprise problems. 
+A data engineer, on the other hand, develops, tests, and maintains the pipelines and data architectures, which the data scientist uses to do the analysis.
+
+
+
+ 
+
+
+
+
+
+
